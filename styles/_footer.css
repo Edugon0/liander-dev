@@ -1,0 +1,27 @@
+footer {
+    background-image: url('https://capsule-render.vercel.app/api?type=waving&color=101014&height=150&section=footer');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer .container {
+    height: 10rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+footer .container p {
+    font-size: 2rem;
+}
+
+footer .container .redes-socias {
+    display: flex;
+    gap: 30px;
+}
+
+footer .container .redes-socias i {
+    font-size: 2rem;
+}

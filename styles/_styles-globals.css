@@ -1,0 +1,55 @@
+@import url('_footer.css');
+@import url('_contato.css');
+@import url('_header.css');
+@import url('_home.css');
+@import url('_projects.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family:'Poppins', sans-serif;
+}
+
+:root {
+    --white: #f1f1f1;
+    --black: #000;
+    --black-lhite: #101014;
+    --gray: #615f5f;
+    --blue: blue;
+    --style: rgb(255, 242, 0);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--black);
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+     width: 100%;
+     max-width: 1300px;
+     padding: 0 15px;
+     margin: 0 auto;
+}
+

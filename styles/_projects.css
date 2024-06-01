@@ -1,0 +1,107 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.projects .title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.projects .title h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--style);
+}
+
+.projects .title a {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.5rem;
+}
+
+.projects .title a i{
+    color: var(--blue);
+}
+
+.projects .projects-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.projects .projects-content .project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: var(--black-lhite);
+    padding: 15px 0;
+}
+
+.projects .projects-content .project > *:not(.img-project) {
+    padding: 0 15px;
+}
+
+.projects .projects-content .project .title {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.projects .projects-content .img-project {
+    width: 100%;
+    object-fit: contain;
+}
+
+.projects .projects-content .img-project img {
+    width: 100%;
+    height: 210px;
+}
+
+.projects .projects-content p {
+    font-size: 1.3rem;
+}
+
+.projects .projects-content .tools-repository {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .projects-content .tools-repository .tolls {
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.projects .projects-content .tools-repository .tolls .toll img{
+    width: 4rem;
+    margin-left: -6px;
+}
+
+.projects .projects-content .tools-repository .buttons-project {
+    display: flex;
+    gap: 10px;
+}
+
+.projects .projects-content .tools-repository .buttons-project a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 2px;
+    color: var(--black);
+    background-color: var(--style);
+}
+
+.projects .projects-content .tools-repository .buttons-project a i {
+    color: var(--blue);
+}

@@ -1,0 +1,217 @@
+#contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-bottom: 40px;
+
+    background-color: var(--color-secundary);
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulario {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+
+    background-color: #040213;
+}
+
+.formulario .title-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.formulario .title-contact h3 {
+    font-size: 2.0rem;
+    font-weight: 500;
+    text-decoration:underline;
+}
+
+.formulario .title-contact i {
+    color: #5e68ff;
+    font-size: 2.0rem;
+    animation: subirDescer 1s ease-in-out infinite;
+}
+
+@keyframes subirDescer {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+    100% {
+
+    }
+  }
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form .info-pessoa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+form .info-pessoa .informações {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form  label {
+    font-size: 1.5rem;
+}
+
+form .informações  div {
+    height: 43px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px;
+    
+    background-color: var(--style-box);
+}
+
+
+form i {
+    font-size: 20px;
+    color: #5e68ff;
+}
+
+form .info-pessoa .informações div input {
+    width: 100%;
+    height: 40px;
+    border: none;
+
+    background-color: initial;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+form .info-pessoa .informações div input:focus {
+    outline: none;
+}
+
+form .info-descricao {
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-descricao div {
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: var(--style-box);
+    margin-bottom: 20px;
+    padding: 13px;
+}
+
+form .info-descricao i {
+    padding-top: 2px;
+}
+
+
+form .info-descricao textarea {
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 1.5rem;
+    font-style: italic;
+
+    background-color: var(--style-box);
+}
+
+form .info-descricao textarea:focus {
+    outline: none;
+}
+
+.botao-contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao-contact i {
+    color: white;
+}
+
+.img-contact {
+    width: 34%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.img-contact img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1470px) {
+    .img-contact {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .formulario {
+        height: auto;
+    }
+    .img-contact {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img-contact {
+        display: none;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    form .informações  div {
+        height: 50px;
+    }
+
+    form .info-pessoa .informações div input {
+        font-size: 1.5rem;
+    }
+    
+    form  label {
+        font-size: 2.0rem;
+    }
+    
+    form .info-descricao textarea {
+        height: 150px;
+    }
+
+}
