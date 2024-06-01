@@ -1,0 +1,29 @@
+.tolls .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tolls .container .toll-content{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+}
+
+.tolls .container .toll {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background-color: var(--black-lhite);
+}
+
+.tolls .container .toll img {
+    width: 5rem;
+}
+
+.tolls .container .toll p {
+    font-size: 2rem;
+    text-transform: uppercase;
+}

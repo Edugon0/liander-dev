@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/_styles-globals.css">
     <title>Liander Souza</title>
 </head>
@@ -23,14 +25,15 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contatos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
+        <!--home-->
         <section class="home">
             <div class="container">
                 <p class="apresentation">hi guys! i'm Liander Souza</p>
@@ -45,85 +48,177 @@
                     <a href=""><i class="fa-brands fa-github-alt"></i></a>
                     <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>-->
+            </div>
+        </section>
 
-                <section class="projects">
-                    <div class="title">
-                        <h2>Projetos</h2>
-                        <a href="">Ver todos <i class="fa-solid fa-arrow-trend-up"></i></a>
+        <!--Tools-->
+        <section class="tolls">
+            <div class="container">
+                <h2>Ferramentas</h2>
+                <div class="toll-content">
+
+                    <div class="toll">
+                        <img src="imgs/html.svg" alt="logo do html">
+                        <p>html</p>
                     </div>
 
-                    <div class="projects-content">
-
-                        <div class="project">
-                            <p class="title">Burguer King - cupons</p>
-
-                            <div class="img-project">
-                                <img src="imgs/lp - bk - project.jpg" alt="">
-                            </div>
-
-                            <p>Lading page feita no intuito de divulgar cupons exclusivos do Burger King com as melhores ofertas e descontos para suas refeições favoritas. Aproveite!</p>
-
-                            <div class="tools-repository">
-                                <div class="tolls">
-                                    <div class="toll">
-                                        <img src="imgs/html.svg" alt="">
-                                    </div>
-
-                                    <div class="toll">
-                                        <img src="imgs/css.svg" alt="">
-                                    </div>
-
-                                    <div class="toll">
-                                        <img src="imgs/javascript.svg" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="buttons-project">
-                                    <a href="https://github.com/Lianderdev/BK-Cupons-Lading-page" target="_blank">github</a>
-                                    <a href="https://bk-cupons-lading-page.vercel.app/" target="_blank">deploy <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="project">
-                            <p class="title">Spyder Man - Anúncio</p>
-
-                            <div class="img-project">
-                                <img src="imgs/lp - spyder man - project.jpg" alt="">
-                            </div>
-
-                            <p>Lading page feita no intuito de divulgar cupons exclusivos do Burger King com as melhores ofertas e descontos para suas refeições favoritas. Aproveite!</p>
-
-                            <div class="tools-repository">
-                                <div class="tolls">
-                                    <div class="toll">
-                                        <img src="imgs/html.svg" alt="">
-                                    </div>
-
-                                    <div class="toll">
-                                        <img src="imgs/css.svg" alt="">
-                                    </div>
-
-                                    <div class="toll">
-                                        <img src="imgs/javascript.svg" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="buttons-project">
-                                    <a href="https://github.com/Lianderdev/BK-Cupons-Lading-page" target="_blank">github</a>
-                                    <a href="https://bk-cupons-lading-page.vercel.app/" target="_blank">deploy <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="project"></div>
+                    <div class="toll">
+                        <img src="imgs/css.svg" alt="logo do css">
+                        <p>css</p>
                     </div>
 
+                    <div class="toll">
+                        <img src="imgs/javascript.svg" alt="logo do javascript">
+                        <p>javascript</p>
+                    </div>
 
-                </section>
+                    <div class="toll">
+                        <img src="imgs/git.svg" alt="logo do git">
+                        <p>git</p>
+                    </div>
 
+                    <div class="toll">
+                        <img src="imgs/react.svg" alt="logo do react">
+                        <p>react</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--projects-->
+        <section id="projects">
+            <div class="container">
+                <div class="title">
+                    <h2>Projetos</h2>
+                    <a href="">Ver todos <i class="fa-solid fa-arrow-trend-up"></i></a>
+                </div>
+
+                <div class="projects-content">
+
+                    <div class="project">
+                        <p class="title">Burguer King - cupons</p>
+
+                        <div class="img-project">
+                            <img src="imgs/lp - bk - project.jpg" alt="">
+                        </div>
+
+                        <p>Lading page feita no intuito de divulgar cupons exclusivos do Burger King com as melhores
+                            ofertas e descontos para suas refeições favoritas. Aproveite!</p>
+
+                        <div class="tools-repository">
+                            <div class="tolls">
+                                <div class="toll">
+                                    <img src="imgs/html.svg" alt="">
+                                </div>
+
+                                <div class="toll">
+                                    <img src="imgs/css.svg" alt="">
+                                </div>
+
+                                <div class="toll">
+                                    <img src="imgs/javascript.svg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="buttons-project">
+                                <a href="https://github.com/Lianderdev/BK-Cupons-Lading-page" target="_blank">github</a>
+                                <a href="https://bk-cupons-lading-page.vercel.app/" target="_blank">deploy <i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <p class="title">Spyder Man - Anúncio</p>
+
+                        <div class="img-project">
+                            <img src="imgs/lp - spyder man - project.jpg" alt="">
+                        </div>
+
+                        <p>Lading page feita no intuito de divulgar cupons exclusivos do Burger King com as melhores
+                            ofertas e descontos para suas refeições favoritas. Aproveite!</p>
+
+                        <div class="tools-repository">
+                            <div class="tolls">
+                                <div class="toll">
+                                    <img src="imgs/html.svg" alt="">
+                                </div>
+
+                                <div class="toll">
+                                    <img src="imgs/css.svg" alt="">
+                                </div>
+
+                                <div class="toll">
+                                    <img src="imgs/javascript.svg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="buttons-project">
+                                <a href="https://github.com/Lianderdev/BK-Cupons-Lading-page" target="_blank">github</a>
+                                <a href="https://bk-cupons-lading-page.vercel.app/" target="_blank">deploy <i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="project"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contacts-->
+        <section id="contact">
+            <div class="container">
+                <h2 class="title-sections">Contact</h2>
+                <div class="contact-content">
+                    <div class="img-contact">
+                        <img src="imgs/img-contact.png" alt="">
+                    </div>
+
+                    <div class="formulario">
+                        <div class="title-contact">
+                            <h3>Vamos trabalhar juntos?</h3>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <form action="https://api.staticforms.xyz/submit" method="post">
+                            <div class="info-pessoa">
+                                <div class="informações">
+                                    <label for="">Nome</label>
+                                    <div>
+                                        <i class="fa-solid fa-circle-user"></i>
+                                        <input type="text" name="name" placeholder="Digite seu nome" required>
+                                    </div>
+                                </div>
+
+                                <div class="informações">
+                                    <label for="">Gmail</label>
+                                    <div>
+                                        <i class="fa-solid fa-square-envelope"></i>
+                                        <input type="text" name="email" placeholder="Digite seu email"
+                                            autocomplete="off" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="info-descricao">
+                                <label for="">Mensagem</label>
+                                <div>
+                                    <i class="fa-solid fa-comment-dots"></i>
+                                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"
+                                        autocomplete="off" required></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="botao botao-contact"><span>Enviar</span><i
+                                    class="fa-solid fa-arrow-trend-up"></i></button>
+
+                            <input type="hidden" name="accessKey" value="18de0799-6c30-4ad0-92b0-dc1e456837d2">
+                            <input type="hidden" name="redirectTo" value="https://">
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

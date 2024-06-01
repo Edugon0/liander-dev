@@ -3,6 +3,7 @@
 @import url('_header.css');
 @import url('_home.css');
 @import url('_projects.css');
+@import url('_tools.css');
 
 * {
     padding: 0;
@@ -18,7 +19,7 @@
     --black-lhite: #101014;
     --gray: #615f5f;
     --blue: blue;
-    --style: rgb(255, 242, 0);
+    --style: #7373d2;
 }
 
 html {
@@ -31,6 +32,16 @@ body {
 
 main {
     margin-bottom: 50px;
+}
+
+section {
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--style);
 }
 
 a {

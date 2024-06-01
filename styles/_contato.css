@@ -1,12 +1,8 @@
-#contact {
-    height: 100vh;
+#contact .container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-
-    margin-bottom: 40px;
-
     background-color: var(--color-secundary);
 }
 
