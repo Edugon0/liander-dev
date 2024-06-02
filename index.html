@@ -13,22 +13,30 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/_styles-globals.css">
-    <title>Liander Souza</title>
+    <title>Potfólio | Liander Souza</title>
 </head>
 
 <body>
-
+    <div class="overlay"></div>
     <header>
         <div class="container">
             <p class="logo">pro<span>grammer</span></p>
 
             <nav>
-                <ul>
+                <ul class="links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#contact">Contatos</a></li>
                 </ul>
             </nav>
+
+            <div class="menu-mobile">
+                <div class="button-menu-mobile">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -37,17 +45,17 @@
         <section class="home">
             <div class="container">
                 <p class="apresentation">hi guys! i'm Liander Souza</p>
-                <h1>Front-end developer</h1>
+                <h1>Front-end Developer</h1>
 
                 <p class="description">Desenvolvedor Front-end dedicado em desenvolver interfaces de usuário modernas e
                     responsivas. Apaixonado por criar experiências digitais intuitivas e agradáveis, sempre buscando as
                     melhores práticas para garantir a acessibilidade e a usabilidade das aplicações.</p>
 
-                <!--<div class="buttons-contact">
+                <div class="buttons-contact">
                     <button>Fale Comigo <i class="fa-regular fa-paper-plane"></i></button>
-                    <a href=""><i class="fa-brands fa-github-alt"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>-->
+                    <a href="https://github.com/Lianderdev" target="_blank"><i class="fa-brands fa-github-alt github"></i></a>
+                    <a href="https://www.linkedin.com/in/liander-vin%C3%ADcius/" target="_blank"><i class="fa-brands fa-linkedin-in linkedin"></i></a>
+                </div>
             </div>
         </section>
 
@@ -90,7 +98,7 @@
             <div class="container">
                 <div class="title">
                     <h2>Projetos</h2>
-                    <a href="">Ver todos <i class="fa-solid fa-arrow-trend-up"></i></a>
+                    <a href="">//  Ver todos</a>
                 </div>
 
                 <div class="projects-content">
@@ -106,7 +114,7 @@
                             ofertas e descontos para suas refeições favoritas. Aproveite!</p>
 
                         <div class="tools-repository">
-                            <div class="tolls">
+                            <div class="tolls-project">
                                 <div class="toll">
                                     <img src="imgs/html.svg" alt="">
                                 </div>
@@ -121,9 +129,8 @@
                             </div>
 
                             <div class="buttons-project">
-                                <a href="https://github.com/Lianderdev/BK-Cupons-Lading-page" target="_blank">github</a>
-                                <a href="https://bk-cupons-lading-page.vercel.app/" target="_blank">deploy <i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/Lianderdev/BK-Cupons-Lading-page" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                                <a href="https://bk-cupons-lading-page.vercel.app/" target="_blank">deploy <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
 
                         </div>
@@ -140,7 +147,7 @@
                             ofertas e descontos para suas refeições favoritas. Aproveite!</p>
 
                         <div class="tools-repository">
-                            <div class="tolls">
+                            <div class="tolls-project">
                                 <div class="toll">
                                     <img src="imgs/html.svg" alt="">
                                 </div>
@@ -155,9 +162,8 @@
                             </div>
 
                             <div class="buttons-project">
-                                <a href="https://github.com/Lianderdev/BK-Cupons-Lading-page" target="_blank">github</a>
-                                <a href="https://bk-cupons-lading-page.vercel.app/" target="_blank">deploy <i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/Lianderdev/Spyder-Man-Lading-page" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                                <a href="https://spyder-man-lading-page.vercel.app/" target="_blank">deploy <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
 
                         </div>
@@ -171,10 +177,10 @@
         <!--Contacts-->
         <section id="contact">
             <div class="container">
-                <h2 class="title-sections">Contact</h2>
+                <h2 class="title-sections">Fale Comigo!</h2>
                 <div class="contact-content">
                     <div class="img-contact">
-                        <img src="imgs/img-contact.png" alt="">
+                        <img src="imgs/contact-img2.svg" alt="">
                     </div>
 
                     <div class="formulario">
@@ -182,33 +188,24 @@
                             <h3>Vamos trabalhar juntos?</h3>
                             <i class="fa-solid fa-arrow-down"></i>
                         </div>
+
+
                         <form action="https://api.staticforms.xyz/submit" method="post">
                             <div class="info-pessoa">
                                 <div class="informações">
                                     <label for="">Nome</label>
-                                    <div>
-                                        <i class="fa-solid fa-circle-user"></i>
-                                        <input type="text" name="name" placeholder="Digite seu nome" required>
-                                    </div>
+                                    <input type="text" name="name" placeholder="Digite seu nome" required>
                                 </div>
 
                                 <div class="informações">
                                     <label for="">Gmail</label>
-                                    <div>
-                                        <i class="fa-solid fa-square-envelope"></i>
-                                        <input type="text" name="email" placeholder="Digite seu email"
-                                            autocomplete="off" required>
-                                    </div>
+                                    <input type="text" name="email" placeholder="Digite seu email" autocomplete="off" required>
                                 </div>
                             </div>
 
                             <div class="info-descricao">
                                 <label for="">Mensagem</label>
-                                <div>
-                                    <i class="fa-solid fa-comment-dots"></i>
-                                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"
-                                        autocomplete="off" required></textarea>
-                                </div>
+                                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off" required></textarea>
                             </div>
 
                             <button type="submit" class="botao botao-contact"><span>Enviar</span><i
@@ -227,14 +224,14 @@
     <footer>
         <div class="container">
             <p>liandervinicius13@gmail.com</p>
-            <div class="redes-socias">
-                <a href="https://github.com/Lianderdev" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
-                <a href="https://github.com/Lianderdev" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <div class="buttons-contact">
+                <a href="https://github.com/Lianderdev" target="_blank"><i class="fa-brands fa-github-alt github"></i></a>
+                <a href="https://www.linkedin.com/in/liander-vin%C3%ADcius/" target="_blank"><i class="fa-brands fa-linkedin-in linkedin"></i></a>
             </div>
         </div>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>

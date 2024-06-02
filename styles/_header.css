@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: #1a2036bf;
     backdrop-filter: blur(4px);
     z-index: 200;
 }
@@ -22,6 +22,7 @@ header .container .logo {
     font-weight: 700;
     text-transform: capitalize;
     padding: 9px;
+    color: var(--white-text);
 }
 
 header .container .logo span {
@@ -40,5 +41,102 @@ header .container nav ul {
 
 header .container nav ul li a {
     font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
     padding: 10px 20px;
+    color: var(--white-text);
+}
+
+header .container .menu-mobile {
+    display: none;
+    cursor: pointer;
+    z-index: 200;
+}
+
+header .container .button-menu-mobile {
+    width: 28px;
+    height: 30px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header .container .button-menu-mobile .line {
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--white);
+}
+
+header .container .button-menu-mobile .line:nth-child(2) {
+    width: 80%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.429);
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    header .container nav ul {
+        width: 0;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        position: fixed;
+        top: 80px;
+        right: 15px;
+        opacity: 0;
+        padding: 5rem 0;
+        border-radius: 5px;
+        background-color: var(--black-secundary);
+        transition: width 0.5s, opacity 0.3s;
+        z-index: 1000;
+    }
+
+    header .container nav ul li {
+        padding: 7px 20%;
+    }
+
+    header .container .menu-mobile{
+        display: block;
+    }
+
+    header .container nav ul.menu-mobile-active {
+        width: 40%;
+        opacity: 1;
+    }
+
+    header .container .button-menu-mobile .line {
+        width: 100%;
+        height: 3px;
+        border-radius: 3px;
+        background-color: var(--white);
+        transition: transform 0.3s, opacity 0.3s, width 0.3s;
+    }
+
+    .menu-mobile-active .line:nth-child(1) { 
+        transform: translateY(11px) rotate(45deg);
+        width: 30px;
+    }
+
+    .menu-mobile-active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-mobile-active .line:nth-child(3) { 
+        transform: translateY(-8px) rotate(-45deg);
+        width: 30px;
+    }
 }

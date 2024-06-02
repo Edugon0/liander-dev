@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import url('_footer.css');
 @import url('_contato.css');
 @import url('_header.css');
@@ -10,19 +11,20 @@
     margin: 0;
     box-sizing: border-box;
     color: var(--white);
-    font-family:'Poppins', sans-serif;
+    font-family:'Outfit', sans-serif;
 }
 
 :root {
-    --white: #f1f1f1;
-    --black: #000;
-    --black-lhite: #101014;
+    --white: #B1B9D8;
+    --white-text: #fff;
+    --black: #1A2036;
+    --black-secundary: #101014;
     --gray: #615f5f;
-    --blue: blue;
-    --style: #7373d2;
+    --icons: #B5BFE4;
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
@@ -40,7 +42,8 @@ section {
 
 h2 {
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 500;
+    line-height: 3rem;
     color: var(--style);
 }
 

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top: 100px;
 }
 
 #projects .title {
@@ -33,7 +34,7 @@
     flex-direction: column;
     gap: 10px;
     border-radius: 8px;
-    background-color: var(--black-lhite);
+    background-color: var(--black-secundary);
     padding: 15px 0;
 }
 
@@ -43,7 +44,7 @@
 
 #projects .projects-content .project .title {
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #projects .projects-content .img-project {
@@ -65,17 +66,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
-#projects .projects-content .tools-repository .tolls {
-    margin-top: 10px;
+#projects .projects-content .tools-repository .tolls-project {
     display: flex;
     gap: 1rem;
 }
 
-#projects .projects-content .tools-repository .tolls .toll img{
+#projects .projects-content .tools-repository .tolls-project .toll img{
     width: 4rem;
-    margin-left: -6px;
 }
 
 #projects .projects-content .tools-repository .buttons-project {
@@ -87,10 +87,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 10px 10px;
+    padding: 1rem 1rem;
     border-radius: 2px;
     color: var(--black);
     background-color: var(--style);
@@ -98,4 +98,8 @@
 
 #projects .projects-content .tools-repository .buttons-project a i {
     color: var(--blue);
+}
+
+#projects .projects-content .tools-repository .buttons-project i {
+    padding: 0.2rem 0.4rem;
 }
