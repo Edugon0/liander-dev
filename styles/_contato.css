@@ -14,14 +14,13 @@
 }
 
 .formulario {
-    width: 50%;
     height: auto;
     border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-
+    background-color: var(--black-secundary);
     padding: 20px;
 }
 
@@ -57,14 +56,14 @@
 
 
 .img-contact {
-    width: 40%;
+    width: 45%;
     height: auto;
-    padding-left: 50px;
 }
 
 .img-contact img {
     width: 100%;
     object-fit: cover;
+    
 }
 
 .contact-content .formulario form {
@@ -83,10 +82,11 @@
 }
 
 .contact-content .formulario form input {
+    width: 100%;
     padding: 15px 15px;
     border: none;
     border-radius: 8px;
-    background-color: var(--black-secundary);
+    background-color: var(--gray);
 }
 
 .contact-content .formulario form input:focus {
@@ -109,7 +109,7 @@
     padding: 15px 15px;
     border: none;
     border-radius: 8px;
-    background-color: var(--black-secundary);
+    background-color: var(--gray);
 }
 
 .contact-content .formulario form .info-descricao textarea:focus {
@@ -125,4 +125,23 @@
     padding: 2rem 1rem;
     border-radius: 8px;
     background-color: var(--style);
+}
+
+
+@media (max-width: 1000px) {
+    .img-contact {
+        display: none;
+    }
+
+    .formulario {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 530px) {
+    .formulario {
+        width: 100%;
+    }
 }

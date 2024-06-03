@@ -1,5 +1,5 @@
 .tolls  {
-    background-image: url('/wallpaper_1366x768_workstation-2.jpg');
+    background-color: var(--style);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,5 +35,7 @@
 
 .tolls .container .toll p {
     font-size: 2rem;
+    font-weight: 600;
     text-transform: uppercase;
+    color: var(--black);
 }

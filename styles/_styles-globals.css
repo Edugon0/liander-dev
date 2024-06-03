@@ -17,10 +17,11 @@
 :root {
     --white: #B1B9D8;
     --white-text: #fff;
-    --black: #1A2036;
-    --black-secundary: #101014;
+    --black: #0c0f16;
+    --black-secundary: #97cffb;
     --gray: #615f5f;
     --icons: #B5BFE4;
+    --style: #15b3a8;
 }
 
 html {
@@ -44,7 +45,7 @@ h2 {
     font-size: 3rem;
     font-weight: 500;
     line-height: 3rem;
-    color: var(--style);
+    color: var(--white-text);
 }
 
 a {
@@ -65,5 +66,12 @@ ul {
      max-width: 1300px;
      padding: 0 15px;
      margin: 0 auto;
+}
+
+@media (max-width: 1090px) {
+    html {
+        font-size: 50%;
+    }
+    
 }
 
