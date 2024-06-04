@@ -34,6 +34,7 @@
     font-size: 2.0rem;
     font-weight: 500;
     text-decoration:underline;
+    color: #fff;
 }
 
 .formulario .title-contact i {
@@ -73,7 +74,9 @@
 }
 
 .contact-content .formulario form label {
+    color: #fff;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .contact-content .formulario form .info-pessoa {
@@ -86,7 +89,8 @@
     padding: 15px 15px;
     border: none;
     border-radius: 8px;
-    background-color: var(--gray);
+    color: #fff;
+    background-color: #fd5855;
 }
 
 .contact-content .formulario form input:focus {
@@ -109,7 +113,8 @@
     padding: 15px 15px;
     border: none;
     border-radius: 8px;
-    background-color: var(--gray);
+    background-color: #fd5855;
+    color: #fff;
 }
 
 .contact-content .formulario form .info-descricao textarea:focus {

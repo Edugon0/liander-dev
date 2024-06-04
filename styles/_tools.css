@@ -1,5 +1,5 @@
-.tolls  {
-    background-color: var(--style);
+#tolls  {
+    background-color: var( --white-text);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,32 +8,37 @@
     margin-top: 100px;
 }
 
-.tolls .container {
+#tolls .container {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.tolls .container .toll-content{ 
+#tolls .container h2 {
+    color: var(--black);
+}
+
+#tolls  .container .toll-content { 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2rem;
 }
 
-.tolls .container .toll {
+#tolls  .container .toll {
     display: flex;
     align-items: center;
     gap: 1.5rem;
     padding: 1rem 2rem;
     border-radius: 8px;
+    border: 2px solid #fff;
     background-color: var(--black-secundary);
 }
 
-.tolls .container .toll img {
+#tolls   .container .toll img {
     width: 5rem;
 }
 
-.tolls .container .toll p {
+#tolls  .container .toll p {
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;

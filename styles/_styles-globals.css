@@ -14,14 +14,15 @@
     font-family:'Outfit', sans-serif;
 }
 
+/*#9b9eaa*/
+
 :root {
-    --white: #B1B9D8;
-    --white-text: #fff;
-    --black: #0c0f16;
-    --black-secundary: #97cffb;
+    --white: #9b9eaa;
+    --white-text: #b7231f;
+    --black: #f8f3ed;
+    --black-secundary: #a71f1b;
     --gray: #615f5f;
     --icons: #B5BFE4;
-    --style: #15b3a8;
 }
 
 html {
@@ -34,11 +35,11 @@ body {
 }
 
 main {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 section {
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 
 h2 {
