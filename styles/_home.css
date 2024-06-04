@@ -3,25 +3,22 @@
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
-    padding: 13.5rem 15px 10rem 15px;
+    padding: 13.5rem 15px 6rem 15px;
 }
 
 .home .container .apresentation {
     font-size: 2.5rem;
     line-height: 2rem;
-    margin-left: -4px;
+    margin-left: -2.5px;
 }
+
 
 .home .container h1 {
     font-size: 10rem;
     line-height: 9rem;
     letter-spacing: 0.2rem;
     margin-left: -7px;
-    color: var(--white-text);
-}
-
-.home .container h1 strong { 
-    color: var(--white-text);
+    color: var(--red-text);
 }
 
 .home .container .description {
@@ -30,13 +27,20 @@
     padding-right: 45%;
     color: var(--gray);
     letter-spacing: 0.1rem;
+    margin-left: -5px;
+}
+
+.home .container .description strong {
+    color: var(--gray);
+    font-weight: 600;
 }
 
 .buttons-contact {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     font-size: 2rem;
+    margin-left: -5.5px;
 }
 
 .buttons-contact button {
@@ -44,13 +48,13 @@
     font-weight: 500;
     padding: 1.4rem 2.5rem;
     border-radius: 25px;
-    color: #fff;
-    background-color: var(--white-text);
+    color: var(--white-absolute);
+    background-color: var(--red-text);
     transition: 0.3s all;
 }
 
 .buttons-contact button i {
-    color: var(--white);
+    color: var(--white-absolute);
     padding-left: 7px;
 }
 
@@ -60,7 +64,7 @@
 
 .buttons-contact a i {
     padding: 1.5rem 1.7rem;
-    border: 1px solid var(--white);
+    border: 1px solid var(--white-gray);
     border-radius: 50%;
     color: var(--white);
     transition: 0.5s all;
@@ -88,11 +92,17 @@
     }
 }
 
-@media (max-width: 847px) {
-    .home .container h1 strong {
-        font-size: 12rem;
-        line-height: 12rem;
-        letter-spacing: 0.2rem;
+@media (max-width: 859px) {
+    .home .container h1{
+        font-size: 8rem;
+        line-height: 7rem;
+    }
+}
+
+@media (max-width: 693px) {
+    .home .container h1{
+        font-size: 6rem;
+        line-height: 5rem;
     }
 }
 
@@ -102,13 +112,18 @@
     }
 
     .home .container h1{
-        font-size: 7rem;
-        line-height: 7rem;
+        font-size: 4rem;
+        line-height: 2rem;
     }
 
-    .home .container h1 strong {
-        font-size: 10rem;
-        line-height: 10rem;
-        margin-left: -2px;
+    .home .container .description {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .home .container .apresentation {
+        font-size: 2.5rem;
+        line-height: 2rem;
+        margin-left: -5.5px;
     }
 }

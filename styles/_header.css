@@ -56,13 +56,6 @@ header .container .button-menu-mobile {
     justify-content: space-around;
 }
 
-header .container .button-menu-mobile .line {
-    width: 100%;
-    height: 3px;
-    border-radius: 3px;
-    background-color: var(--white);
-}
-
 header .container .button-menu-mobile .line:nth-child(2) {
     width: 80%;
 }
@@ -100,7 +93,7 @@ header .container .button-menu-mobile .line:nth-child(2) {
         padding: 5rem 0;
         border-radius: 5px;
         border: 2px solid #d93631;
-        background-color: var(--black-secundary);
+        background-color: var(--red-text);
         transition: width 0.5s, opacity 0.3s;
         z-index: 1000;
     }
@@ -127,7 +120,7 @@ header .container .button-menu-mobile .line:nth-child(2) {
         width: 100%;
         height: 3px;
         border-radius: 3px;
-        background-color: var(--white);
+        background-color: var(--red-text);
         transition: transform 0.3s, opacity 0.3s, width 0.3s;
     }
 

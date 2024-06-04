@@ -1,5 +1,5 @@
 #tolls  {
-    background-color: var( --white-text);
+    background-color: var(--red-text);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,12 +15,12 @@
 }
 
 #tolls .container h2 {
-    color: var(--black);
+    color: var(--white-absolute);
 }
 
 #tolls  .container .toll-content { 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(149px, 1fr));
     grid-gap: 2rem;
 }
 
@@ -30,8 +30,8 @@
     gap: 1.5rem;
     padding: 1rem 2rem;
     border-radius: 8px;
-    border: 2px solid #fff;
-    background-color: var(--black-secundary);
+    border: 2px solid var(--white-absolute);
+    background-color: var(--red-secundary);
 }
 
 #tolls   .container .toll img {
@@ -42,5 +42,39 @@
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--black);
+    color: var(--white-absolute);
+}
+
+@media (max-width: 1230px) {
+    #tolls  .container .toll {
+        gap: 1rem;
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 920px) {
+    #tolls   .container .toll img {
+        width: 4rem;
+    }
+}
+
+
+@media (max-width: 376px) {
+    #tolls  .container .toll {
+        gap: 1rem;
+        padding: 1rem 1rem;
+        border-radius: 8px;
+        border: 1px solid var(--white-absolute);
+    }
+    #tolls   .container .toll img {
+        width: 4rem;
+    }
+}
+
+
+@media (max-width: 389px) {
+    #tolls  .container .toll {
+        gap: 0.5rem;
+        padding: 1rem 1rem;
+    }
 }

@@ -5,22 +5,24 @@
 @import url('_home.css');
 @import url('_projects.css');
 @import url('_tools.css');
+@import url('_modal.css');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: var(--white);
+    color: var(--white-gray);
     font-family:'Outfit', sans-serif;
 }
 
 /*#9b9eaa*/
 
 :root {
-    --white: #9b9eaa;
-    --white-text: #b7231f;
-    --black: #f8f3ed;
-    --black-secundary: #a71f1b;
+    --white-absolute: #fff;
+    --white-gray: #9b9eaa;
+    --red-text: #b7231f;
+    --color-primary: #f8f3ed;
+    --red-secundary: #a71f1b;
     --gray: #615f5f;
     --icons: #B5BFE4;
 }
@@ -31,7 +33,7 @@ html {
 }
 
 body {
-    background-color: var(--black);
+    background-color: var(--color-primary);
 }
 
 main {
@@ -46,7 +48,7 @@ h2 {
     font-size: 3rem;
     font-weight: 500;
     line-height: 3rem;
-    color: var(--white-text);
+    color: var(--red-text);
 }
 
 a {
@@ -75,4 +77,5 @@ ul {
     }
     
 }
+
 
