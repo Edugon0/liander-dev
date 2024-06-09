@@ -20,7 +20,7 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    background-color: var(--black-secundary);
+    background-color: #eaccad;
     padding: 20px;
 }
 
@@ -34,7 +34,7 @@
     font-size: 2.0rem;
     font-weight: 500;
     text-decoration:underline;
-    color: #fff;
+    color: var(--red-text);
 }
 
 .formulario .title-contact i {
@@ -74,7 +74,7 @@
 }
 
 .contact-content .formulario form label {
-    color: #fff;
+    color: #b76363;
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -87,14 +87,14 @@
 .contact-content .formulario form input {
     width: 100%;
     padding: 15px 15px;
-    border: none;
+    border: 1px solid white;
     border-radius: 8px;
-    color: #fff;
-    background-color: #fd5855;
+    color: var(--gray);
+    background-color: #eaccad;
 }
 
 .contact-content .formulario form input:focus {
-    outline: none;
+    outline: 2px solid var(--red-text);
 }
 
 .contact-content .formulario form .info-pessoa .informações {
@@ -111,14 +111,14 @@
 
 .contact-content .formulario form .info-descricao textarea {
     padding: 15px 15px;
-    border: none;
+    border: 1px solid white;
     border-radius: 8px;
-    background-color: #fd5855;
-    color: #fff;
+    background-color: #eaccad;
+    color: var(--gray);
 }
 
 .contact-content .formulario form .info-descricao textarea:focus {
-    outline: none;
+    outline: 2px solid var(--red-text);
 }
 
 .contact-content .formulario form .botao-contact {
@@ -129,7 +129,16 @@
     font-size: 2rem;
     padding: 2rem 1rem;
     border-radius: 8px;
-    background-color: var(--style);
+    transition: .5s ease;
+}
+
+.contact-content .formulario form .botao-contact:hover {
+    outline: 3px solid #e1e1e1d0;
+    font-size: 2.1rem;
+}
+
+.contact-content .formulario form .botao-contact:active {
+    background-color: var(--red-text);
 }
 
 

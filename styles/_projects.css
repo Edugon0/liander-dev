@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #projects .title a i{
@@ -18,10 +18,15 @@
 #projects .projects-content .project {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     border-radius: 8px;
     background-color: var(--red-text);
-    padding: 15px 0;
+    padding: 19px 0;
+    transition: .5s ease;
+}
+
+#projects .projects-content .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 #projects .projects-content .project > *:not(.img-project) {

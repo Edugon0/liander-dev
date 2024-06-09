@@ -22,7 +22,7 @@
 }
 
 .home .container .description {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 15px;
     padding-right: 45%;
     color: var(--gray);
@@ -31,6 +31,7 @@
 }
 
 .home .container .description strong {
+    font-style: italic;
     color: var(--gray);
     font-weight: 600;
 }
