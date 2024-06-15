@@ -5,7 +5,8 @@
 @import url('_home.css');
 @import url('_projects.css');
 @import url('_tools.css');
-@import url('_modal.css');
+@import url('_modal.css'); 
+@import url('_education.css'); 
 
 * {
     padding: 0;
@@ -19,10 +20,10 @@
 
 :root {
     --white-absolute: #fff;
-    --white-gray: #9b9eaa;
-    --red-text: #b7231f;
-    --color-primary: #f8f3ed;
-    --red-secundary: #a71f1b;
+    --white-gray: #000;
+    --red-text: #39586d;
+    --color-primary: #d2d7db;
+    --red-secundary: #2c4156;
     --gray: #615f5f;
     --icons: #B5BFE4;
 }
@@ -33,11 +34,13 @@ html {
 }
 
 body {
-    background-color: var(--color-primary);
+    background-color: var(--white-gray);
 }
 
 main {
-    margin-bottom: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
 }
 
 section {
@@ -48,7 +51,7 @@ h2 {
     font-size: 3rem;
     font-weight: 500;
     line-height: 3rem;
-    color: var(--red-text);
+    color: #fff;
 }
 
 a {

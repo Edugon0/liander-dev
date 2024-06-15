@@ -1,13 +1,21 @@
 footer {
-    height: 10rem;
+    height: auto;
     display: flex;
     align-items: center;
-    border-top: 1px solid var(--white-gray);
+    padding: 5rem 0 2rem 0;
 }
 
-
-
 footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+footer .container .button-contact {
+    width: 193px;
+}
+
+footer .container .bottom{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,4 +33,11 @@ footer .container .redes-socias {
 
 footer .container .redes-socias i {
     font-size: 2rem;
+}
+
+footer .container .copy2024 {
+    color: var(--gray);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
 }
