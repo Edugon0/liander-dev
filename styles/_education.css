@@ -19,7 +19,7 @@
     position: relative;
 
     border: 1px solid #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 15px;
 }
 
@@ -47,7 +47,7 @@
 
 #education .container .formacoes-content .formacao p {
     font-size: 1.5rem;
-    color: var( --red-secundary);
+    color: #c5b3b3;
 }
 
 #education .container .formacoes-content .formacao img {
@@ -60,10 +60,44 @@
     position: absolute;
     bottom: 15px;
     right: 15px;
-
 }
 
-@media (max-width: 420px)  {
+.img-education {
+    width: 350px;
+    margin: -100px 0 0 50px;
+}
+
+.img-education img {
+    width: 100%;
+}
+
+@media (max-width: 1087px) {
+    .img-education {
+        width: 350px;
+        margin: -90px 0 0 0;
+    }
+} 
+
+@media (max-width: 950px) {
+    .img-education {
+    width: 350px;
+    margin: -60px 0 0 0;
+}
+}
+
+@media (max-width: 760px) {
+    .img-education {
+        margin: -30px 0 0 0;
+    }
+}
+
+@media (max-width: 679px) {
+    .img-education {
+        display: none;
+    }
+}
+
+@media (max-width: 456px)  {
     #education .container .formacoes-content .formacao h3 {
         font-size: 1.8rem;
     }
@@ -73,10 +107,10 @@
         height: 40px;
         bottom: 10px;
         right: 10px;
-
     }
 
     #education .container .formacoes-content .formacao p {
         font-size: 1.3rem;
     }
 }
+

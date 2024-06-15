@@ -2,7 +2,7 @@ footer {
     height: auto;
     display: flex;
     align-items: center;
-    padding: 5rem 0 2rem 0;
+    padding: 3rem 0 2rem 0;
 }
 
 footer .container {
@@ -36,8 +36,16 @@ footer .container .redes-socias i {
 }
 
 footer .container .copy2024 {
+    border-top: 1px solid var(--gray);
     color: var(--gray);
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
+    padding-top: 2rem;
+}
+
+@media (max-width: 790px) {
+    footer {
+        padding: 9rem 0 2rem 0;
+    }
 }

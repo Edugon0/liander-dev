@@ -10,17 +10,3 @@ buttonMenu.addEventListener('click', () => {
         menu.classList.remove('menu-mobile-active');
     })
 });
-
-
-//modal
-
-const img_modal = document.querySelector('.img-project-dialog')
-const modal = document.querySelector('dialog')
-const fechar_modal = document.querySelector('.fechar-modal')
-img_modal.addEventListener('click', () => {
-    modal.showModal()
-})
-
-fechar_modal.addEventListener('click', () => {
-    modal.close()
-})

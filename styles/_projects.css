@@ -10,27 +10,32 @@
 }
 
 #projects .projects-content {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(375px, 500fr));
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    justify-items: center;
+    gap: 6rem 3rem;
 }
 
 #projects .projects-content .project {
    position: relative;
    object-fit: cover;
-   transition: display 1s ease;
+   border-radius: 10px;
+   display: flex;
+   transition: 1s ease;
 }
 
 
 
 #projects .projects-content .project .name-project {
     font-size: 2rem;
-    padding: 2px 5px;
-    color: #2b2a2a;
-    background-color: var(--gray);
+    padding: 3px 5px;
+    color: #433f3f;
+    border: 1px solid #FFF;
+    background-color: black;
     border-radius: 3px;
     position: absolute;
-    top: -45px;
+    top: -35px;
     right: 0;
     display: none;
 }
@@ -41,7 +46,7 @@
 
 #projects .projects-content .project .tasks {
     display: flex;
-    background-color: #fff;
+    background-color: #ffffff89;
     border-radius: 3px;
     padding: 3px;
     position: absolute;
@@ -52,11 +57,13 @@
 #projects .projects-content .project .tasks img {
     width: 3rem;
     height: 3rem;
+    
 }
 
 #projects .projects-content .project img {
    height: 25rem;
    width: 100%;
+   border-radius: 5px;
 }
 
 #projects .projects-content .buttons-project {
@@ -95,7 +102,7 @@
 
 @media (max-width: 1232px) {
     #projects .projects-content .project img {
-        height: 35rem;
+        height: 30rem;
      }   
 }
 
@@ -107,7 +114,7 @@
 
 @media (max-width: 839px) {
     #projects .projects-content .project img {
-        height: 40rem;
+        height: 30rem;
      }   
 }
 
