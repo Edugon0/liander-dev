@@ -20,12 +20,9 @@
 
 :root {
     --white-absolute: #fff;
-    --white-gray: #000;
-    --red-text: #39586d;
-    --color-primary: #d2d7db;
-    --red-secundary: #2c4156;
+    --blue: #39586d;
+    --black: #000;
     --gray: #615f5f;
-    --icons: #B5BFE4;
 }
 
 html {
@@ -34,16 +31,16 @@ html {
 }
 
 body {
-    background-color: var(--white-gray);
+    background-color: var( --black);
 }
 
 main {
     display: flex;
     flex-direction: column;
-    gap: 7rem;
 }
 
-section {
+section:not(.home) {
+    padding-top: 8rem;
     margin-top: 1rem;
 }
 
@@ -70,7 +67,7 @@ ul {
 .container {
      width: 100%;
      max-width: 1300px;
-     padding: 0 15px;
+     padding: 0 20px;
      margin: 0 auto;
 }
 
@@ -81,4 +78,16 @@ ul {
     
 }
 
+@media (max-width: 426px) {
+    section {
+        padding-top: 9rem;
+        margin-top: 1rem;
+    }
+}
+
+#teste {
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
 

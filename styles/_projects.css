@@ -22,7 +22,11 @@
    object-fit: cover;
    border-radius: 10px;
    display: flex;
-   transition: 1s ease;
+   transition: .5s ease;
+}
+
+#projects .projects-content .project:hover {
+    transform: translateY(-5px);
 }
 
 
@@ -30,14 +34,14 @@
 #projects .projects-content .project .name-project {
     font-size: 2rem;
     padding: 3px 5px;
-    color: #433f3f;
-    border: 1px solid #FFF;
-    background-color: black;
+    color: var(--white-absolute);
+    background-color: #28282856;
     border-radius: 3px;
     position: absolute;
     top: -35px;
     right: 0;
     display: none;
+    transition: 1s ease;
 }
 
 #projects .projects-content .project:hover .name-project {
@@ -46,17 +50,17 @@
 
 #projects .projects-content .project .tasks {
     display: flex;
-    background-color: #ffffff89;
+    background-color: #39586d7e;
     border-radius: 3px;
     padding: 3px;
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     left: 10px;
 }
 
 #projects .projects-content .project .tasks img {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     
 }
 
@@ -83,17 +87,18 @@
     text-transform: uppercase;
     padding: 8px 10px;
     border-radius: 2px;
-    color: var(--white-absolute);;
-    background-color: var(--red-secundary);
+    color:var(--white-absolute);
+    background-color: var(--blue);
     transition: .5s ease;
 }
 
+
 #projects .projects-content .buttons-project a:hover {
-    background-color: #31485e;
+    background-color: #42667e;
 }
 
 #projects .projects-content .buttons-project a i {
-    color: var(--white-absolute);
+    color:var(--white-absolute);
 }
 
 #projects .projects-content .buttons-project i {

@@ -17,8 +17,7 @@
     flex-direction: column;
     gap: 5px;
     position: relative;
-
-    border: 1px solid #fff;
+    border: 1px solid var(--white-absolute);
     border-radius: 5px;
     padding: 15px;
 }
@@ -29,7 +28,7 @@
     text-transform: uppercase;
     line-height: 20px;
     font-weight: 600;
-    color: #fff;
+    color: var(--white-absolute);
 }
 
 #education .container .formacoes-content .formacao .faculdade {
@@ -55,7 +54,7 @@
     height: 50px;
     border-radius: 50%;
     padding: 5px;
-    background-color: #fff;
+    background-color: var(--white-absolute);
 
     position: absolute;
     bottom: 15px;
