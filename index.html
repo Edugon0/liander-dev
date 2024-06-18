@@ -183,6 +183,11 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="ver-mais">
+                    <p>ver mais</p>
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
             </div>
         </section>
 
@@ -219,56 +224,49 @@
 
         <!--Contacts-->
         <section id="formulario-contact">
-            <div class="title-contact">
-                <h2 
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-duration="500"
-                data-aos-easing="ease-in-sine">Vamos trocar uma ideia? </h2>
-                <i class="fa-solid fa-arrow-down"></i>
+            <div class="title-contact" 
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine">
+                <h2>Vamos trocar uma ideia? </h2>
+                <i></i>
             </div>
             <form action="https://api.staticforms.xyz/submit" method="post" data-aos="zoom-in" data-aos-duration="700">
                 <div class="info-pessoa">
                     <div class="input">
                         <label for="name">Nome</label>
-                        <input type="text" id="name" placeholder="Digite seu nome" required>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
                     </div>
 
                     <div class="input">
                         <label for="email">Email</label>
-                        <input type="text" id="email" placeholder="Digite seu email" required>
+                        <input type="text" id="email" name="email" placeholder="Digite seu email" required>
                     </div>
                 </div>
 
                 <div class="message">
                     <label for="message">Menssagem</label>
-                    <textarea name="" id="message" placeholder="Digite sua menssagem" required></textarea>
+                    <textarea name="message" id="message" placeholder="Digite sua menssagem" required></textarea>
                 </div>
 
                 <button class="enviar-mensagem" type="submit">Enviar</button>
                 <input type="hidden" name="accessKey" value="18de0799-6c30-4ad0-92b0-dc1e456837d2">
-                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#teste">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
             </form>
         </section>
     </main>
 
     <!--Footer-->
-    <footer 
-    data-aos="fade-up"
-    data-aos-duration="500">
+    <footer>
         <div class="container">
-
-            <div class="bottom">
-                <button class="button-contact">Fale Comigo <i class="fa-regular fa-paper-plane"></i></button>
-                <div class="buttons-contact">
-                    <a href="https://github.com/Lianderdev" target="_blank"><i
-                            class="fa-brands fa-github-alt github redes"></i></a>
-                    <a href="https://www.linkedin.com/in/liander-vin%C3%ADcius/" target="_blank"><i
-                            class="fa-brands fa-linkedin-in linkedin redes"></i></a>
-                </div>
-            </div>
-
             <p class="copy2024">₢ 2024 Liander Dev</p>
+            <div class="buttons-contact">
+                <a href="https://github.com/Lianderdev" target="_blank"><i
+                            class="fa-brands fa-github-alt github redes"></i></a>
+                <a href="https://www.linkedin.com/in/liander-vin%C3%ADcius/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in linkedin redes"></i></a>
+            </div>
         </div>
     </footer>
 

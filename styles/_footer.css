@@ -2,29 +2,17 @@ footer {
     height: auto;
     display: flex;
     align-items: center;
-    padding: 10rem 0 2rem 0;
+    margin: 10rem 0 0 0;
+    border-top: 1px solid var(--gray);
 }
 
 footer .container {
     display: flex;
-    flex-direction: column;
-    gap: 4rem;
-}
-
-footer .container .button-contact {
-    width: 193px;
-}
-
-footer .container .bottom{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
+    gap: 4rem;
+    padding: 3rem 20px;
 }
 
-footer .container p {
-    font-size: 2rem;
-    color: var(--white-gray);
-}
 
 footer .container .redes-socias {
     display: flex;
@@ -36,7 +24,6 @@ footer .container .redes-socias i {
 }
 
 footer .container .copy2024 {
-    border-top: 1px solid var(--gray);
     color: var(--gray);
     text-align: center;
     font-size: 2rem;
@@ -46,6 +33,6 @@ footer .container .copy2024 {
 
 @media (max-width: 790px) {
     footer {
-        padding: 9rem 0 2rem 0;
+        padding: 1rem 0 2rem 0;
     }
 }
