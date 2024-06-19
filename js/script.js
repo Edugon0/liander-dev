@@ -32,3 +32,12 @@ buttonMenu.addEventListener('click', () => {
 });
 
 
+//botão ver mais 
+
+const botaoVerMais = document.querySelector(".ver-mais")
+const containerProjects = document.querySelector('.projects-content')
+
+botaoVerMais.addEventListener('click', () => {
+    containerProjects.classList.add('mostra-projetos')
+})
+

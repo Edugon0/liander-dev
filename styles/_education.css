@@ -6,12 +6,12 @@
 }
 
 #education .container .formacoes-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
     gap: 20px;
 }
 
 #education .container .formacoes-content .formacao {
-    width: 400px;
     height: 130px;
     display: flex;
     flex-direction: column;
@@ -70,23 +70,43 @@
     width: 100%;
 }
 
-@media (max-width: 1087px) {
+
+@media (max-width: 1185px) {
     .img-education {
         width: 350px;
         margin: -90px 0 0 0;
     }
 } 
 
+@media (max-width: 1087px) {
+    .img-education {
+        margin: -90px 0 0 0;
+    }
+} 
+
+@media (max-width: 1145px) {
+    .img-education {
+        margin: -130px 0 0 -30px;
+    }
+} 
+
 @media (max-width: 950px) {
     .img-education {
-    width: 350px;
-    margin: -60px 0 0 0;
+    width: 300px;
+    margin: -100px 0 0 0;
+    }
 }
+
+@media (max-width: 918px) {
+    .img-education {
+    margin: -100px 0 0 -30px;
+    }
 }
 
 @media (max-width: 760px) {
     .img-education {
-        margin: -30px 0 0 0;
+        width: 250px;
+        margin: -70px 0 0 -20px;
     }
 }
 
@@ -94,12 +114,12 @@
     .img-education {
         display: none;
     }
-}
-
-@media (max-width: 456px)  {
     #education .container .formacoes-content .formacao h3 {
         font-size: 1.8rem;
     }
+}
+
+@media (max-width: 480px)  {
 
     #education .container .formacoes-content .formacao img {
         width: 40px;
@@ -110,6 +130,16 @@
 
     #education .container .formacoes-content .formacao p {
         font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 432px)  {
+    #education .container .formacoes-content .formacao {
+        height: 93px;
+    }
+    #education .container .formacoes-content .formacao img {
+        bottom: 15px;
+        right: 15px;
     }
 }
 
