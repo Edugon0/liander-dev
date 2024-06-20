@@ -50,10 +50,18 @@
 }
 
 @media (max-width: 920px) {
-    #tolls   .container .toll img {
+    #tolls  .container .toll img {
         width: 4rem;
     }
 }
+
+@media (max-width: 500px) {
+    #tolls  .container {
+        margin-top: -10px;
+    }
+
+}
+
 
 
 @media (max-width: 376px) {

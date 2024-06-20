@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
-    padding: 13.5rem 25rem 2rem 20px;
+    padding: 13.5rem 25rem 1rem 20px;
 }
 
 .home .container .apresentation {
@@ -20,6 +20,11 @@
     margin-left: -0.4375rem;
     color: var(--white-absolute);
     padding-bottom: 3rem;
+}
+
+.home .container h1 span {
+    font-size: 3rem;
+    color: var(--blue);
 }
 
 
@@ -48,7 +53,7 @@
 .button-contact {
     font-size: 2rem;
     font-weight: 500;
-    padding: 1.4rem 2.5rem;
+    padding: 1.4rem 3.5rem;
     border-radius: 25px;
     color: var(--white-absolute);
     background-color: var(--blue);
@@ -90,7 +95,7 @@
 
 @media (max-width: 900px) {
     .home .container {
-        padding: 14.5rem 15px 7rem 15px;
+        padding: 14.5rem 15px 2rem 15px;
     }
 }
 
@@ -103,7 +108,7 @@
 
 @media (max-width: 570px) {
     .home .container {
-        padding: 12.5rem 15px 2rem 15px;
+        padding: 12.5rem 15px 1rem 15px;
     }
 
     .home .container h1{
