@@ -17,9 +17,9 @@
     flex-direction: column;
     gap: 5px;
     position: relative;
-    border: 1px solid var(--white-absolute);
     border-radius: 5px;
     padding: 15px;
+    background-color: var(--blue);
 }
 
 
@@ -32,8 +32,10 @@
 }
 
 #education .container .formacoes-content .formacao .faculdade {
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 600;
     color: green;
 }
 
@@ -59,6 +61,8 @@
     position: absolute;
     bottom: 15px;
     right: 15px;
+    border: 3px solid var(--black);
+    outline: 2px solid var(--gray);
 }
 
 .img-education {
@@ -110,7 +114,7 @@
     }
 }
 
-@media (max-width: 679px) {
+@media (max-width: 680px) {
     .img-education {
         display: none;
     }

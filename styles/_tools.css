@@ -27,7 +27,6 @@
     gap: 1.5rem;
     padding: 1rem 1rem;
     border-radius: 5px;
-    border: 2px solid var(--white-absolute);
     background-color: var(--blue);
 }
 
@@ -40,6 +39,7 @@
     font-weight: 600;
     text-transform: uppercase;
     color: var(--white-absolute);
+    letter-spacing: 0.1rem;
 }
 
 @media (max-width: 1230px) {
@@ -68,9 +68,8 @@
     #tolls  .container .toll {
         gap: 1rem;
         padding: 1rem 1rem;
-        border-radius: 8px;
-        border: 1px solid var(--white-absolute);
     }
+    
     #tolls   .container .toll img {
         width: 4rem;
     }

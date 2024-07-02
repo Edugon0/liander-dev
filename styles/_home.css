@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
-    padding: 13.5rem 25rem 1rem 20px;
+    padding: 13.5rem 25rem 1rem 25px;
 }
 
 .home .container .apresentation {
@@ -19,7 +19,7 @@
     letter-spacing: 0.2rem;
     margin-left: -0.4375rem;
     color: var(--white-absolute);
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .home .container h1 span {
@@ -61,28 +61,32 @@
 }
 
 .button-contact i {
-    color: var(--white-absolute);
+    color: var(--gray);
     padding-left: 7px;
 }
 
 .button-contact:hover {
-    outline: 3px solid var(--white-absolute);
+     box-shadow: 0px 0px 0px 3px var(--white-absolute);
 }
 
 .buttons-contact a .redes{
     padding: 1.5rem 1.7rem;
-    border: 1px solid var(--white-absolute);
+    border: 1px solid var(--gray);
     border-radius: 50%;
-    color: var(--white-absolute);
+    color: var(--gray);
     transition: 0.5s all;
 }
 
 .buttons-contact .github:hover {
     background-color: #010409;
+    color: var(--white-absolute);
+    border: 1px solid var(--white-absolute);
 }
 
 .buttons-contact .linkedin:hover {
     background-color: #0a66c2;
+    color: var(--white-absolute);
+    border: 1px solid var(--white-absolute);
 }
 
 
@@ -95,7 +99,7 @@
 
 @media (max-width: 900px) {
     .home .container {
-        padding: 14.5rem 15px 2rem 15px;
+        padding: 14.5rem 15px 2rem 25px;
     }
 }
 
@@ -108,7 +112,7 @@
 
 @media (max-width: 570px) {
     .home .container {
-        padding: 12.5rem 15px 1rem 15px;
+        padding: 12.5rem 15px 1rem 25px;
     }
 
     .home .container h1{

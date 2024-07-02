@@ -1,6 +1,6 @@
 #formulario-contact {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@
 }
 
 #formulario-contact form .info-pessoa .input input:focus {
-    border: 3px solid var(--blue);
+    border: 3px solid var(--gray);
 }
 
 
@@ -106,7 +106,7 @@
 }
 
 #formulario-contact form .message textarea:focus {
-    border: 3px solid var(--blue);
+    border: 3px solid var(--gray);
 }
 
 #formulario-contact form button {
@@ -123,5 +123,5 @@
 }
 
 #formulario-contact form button:hover {
-    outline: 3px solid var(--white-absolute);
+    box-shadow: 0px 0px 0px 3px var(--white-absolute);
 }

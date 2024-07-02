@@ -19,7 +19,7 @@ header .container {
 header .container .logo {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--blue);
+    color: var(--gray);
     border-radius: 4px;
 }
 
