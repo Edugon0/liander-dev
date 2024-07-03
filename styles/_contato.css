@@ -9,37 +9,8 @@
 
 #formulario-contact .title-contact {
     width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
     gap: 15px;
-}
-
-#formulario-contact .title-contact h2 {
-
-    text-align: center;
-}
-
-#formulario-contact .title-contact i {
-    color: var(--blue);
-    font-size: 2.5rem;
-    animation: subirDescer 1s ease-in-out infinite;
-}
-
-@keyframes subirDescer {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-3px);
-    }
-    100% {
-
-    }
-  }
-
-#formulario-contact h2 {
-    text-align: center;
+    margin: 0 20px;
 }
 
 #formulario-contact form {

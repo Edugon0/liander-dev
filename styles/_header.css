@@ -49,6 +49,11 @@ header .container nav .links li a:hover {
     background-color: #28282856;
 }
 
+.active {
+    background-color: #28282856;
+}
+
+
 header .container .menu-mobile {
     display: none;
     cursor: pointer;

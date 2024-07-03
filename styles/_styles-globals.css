@@ -20,7 +20,7 @@
 
 :root {
     --white-absolute: #fff;
-    --blue: #090a0a;
+    --blue: #0b0c0c;
     --black: #000;
     --gray: #333232;
 }
@@ -71,6 +71,24 @@ ul {
      padding: 0 20px;
      margin: 0 auto;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: var(--black)
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--blue); /* Cor do polegar */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+  
+  /* Mudando a cor do polegar ao passar o mouse */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--gray); /* Cor ao passar o mouse */
+  }
 
 
 @media (max-width: 1090px) {

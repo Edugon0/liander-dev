@@ -22,7 +22,7 @@ buttonMenu.addEventListener('click', () => {
         body.classList.remove('overlay-geral')
         main.style.diplay = 'none'
     }
-    
+
     const links = document.querySelector('.links');
     links.addEventListener('click', () => {
         menu.classList.remove('menu-mobile-active');
@@ -31,13 +31,13 @@ buttonMenu.addEventListener('click', () => {
     });
 });
 
+const navLinks = document.querySelectorAll(".nav-link");
 
-//botão ver mais 
+navLinks.forEach(link => {
+    link.addEventListener("click", function (event) {
+        navLinks.forEach(nav => nav.classList.remove("active"));
 
-const botaoVerMais = document.querySelector(".ver-mais")
-const containerProjects = document.querySelector('.projects-content')
-
-botaoVerMais.addEventListener('click', () => {
-    containerProjects.classList.add('mostra-projetos')
-})
+        event.currentTarget.classList.add("active");
+    });
+});
 

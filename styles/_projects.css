@@ -4,3 +4,75 @@
     gap: 20px;
 }
 
+#projects .content-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+#projects .content-projects .project {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--blue);
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+#projects .content-projects .project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#projects .content-projects .project .link-deploy {
+    display: flex;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: var(--white-absolute);
+} 
+
+#projects .content-projects .project .link-deploy:hover h3{
+    text-decoration: underline;
+}
+
+#projects .content-projects .project .link-deploy h3 {
+    font-weight: 300;
+}
+
+#projects .content-projects .project .link-deploy i {
+    transform: rotate(-45deg);
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#projects .content-projects .project .tecnologias {
+    display: flex;
+    gap: 4px;
+    margin-left: -0.3rem;
+}
+
+#projects .content-projects .project .tecnologias img {
+    width: 3rem;
+}
+
+#projects .content-projects .project .link-codigo {
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    font-size: 3rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+    color: var(--gray);
+    background-color: var(--blue);
+    transition: .5s ease;
+}
+
+#projects .content-projects .project .link-codigo:hover {
+    color: var(--white-absolute);
+}
