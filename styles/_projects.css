@@ -39,7 +39,8 @@
 }
 
 #projects .content-projects .project .link-deploy h3 {
-    font-weight: 300;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 #projects .content-projects .project .link-deploy i {
