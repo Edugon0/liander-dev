@@ -30,7 +30,7 @@
     border: 2px solid var(--white-absolute);
 }
 
-#tolls  .container .toll img {
+#tolls  .container .toll .toll-img {
     width: 3rem;
 }
 

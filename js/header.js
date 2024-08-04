@@ -18,9 +18,8 @@ buttonMenu.addEventListener('click', () => {
         body.style.overflow = 'hidden';
         main.style.diplay = 'block'
     } else {
-        body.style.overflow = 'auto';
-        body.classList.remove('overlay-geral')
-        main.style.diplay = 'none'
+        body.style.overflowY = 'auto';
+        body.classList.add('overlay-geral')
     }
 
     const links = document.querySelector('.links');
