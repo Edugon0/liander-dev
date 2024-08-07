@@ -64,8 +64,8 @@ header .container .menu-mobile {
 }
 
 header .container .button-menu-mobile {
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     display: flex;
     align-items: end;
     flex-direction: column;
@@ -74,7 +74,7 @@ header .container .button-menu-mobile {
 
 header .container .button-menu-mobile .line {
     width: 100%;
-    height: 3px;
+    height: 2px;
     border-radius: 3px;
     background-color: var(--white-absolute);
     transition: transform 0.3s, opacity 0.3s, width 0.3s;
@@ -101,7 +101,7 @@ header .container .button-menu-mobile .line:nth-child(2) {
         padding: 20px 0;
         position: fixed;
         top: 90px;
-        right: 15px;
+        right: 20px;
         opacity: 0;
         border-radius: 5px;
         background-color: #0d0d0d;
@@ -120,7 +120,7 @@ header .container .button-menu-mobile .line:nth-child(2) {
     }
 
     header .container .button-menu-mobile .line:nth-child(1).menu-active {
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(6px) rotate(45deg);
         width: 100%;
     }
     

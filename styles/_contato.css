@@ -88,11 +88,13 @@
     border-radius: 25px;
     font-size: 2rem;
     font-weight: 600;
-    background-color: var(--blue);
+    background-color: transparent;
+    border: 2px solid var(--white-absolute);
     color: var(--white-absolute);
     transition: 0.3s all;
 }
 
 #formulario-contact form button:hover {
-    box-shadow: 0px 0px 0px 3px var(--white-absolute);
+    background-color: var(--white-absolute);
+    color: var(--black);
 }

@@ -20,9 +20,9 @@
 
 :root {
     --white-absolute: #fff;
-    --blue: #0b0c0c;
+    --gray-dark: #181818;
     --black: #000;
-    --gray: #333232;
+    --gray: #5f5b5b;
 }
 
 html {
@@ -81,7 +81,7 @@ ul {
 }
   
 ::-webkit-scrollbar-thumb {
-    background: var(--blue); /* Cor do polegar */
+    background: var(--gray-dark); /* Cor do polegar */
     border-radius: 5px; /* Bordas arredondadas */
 }
   
