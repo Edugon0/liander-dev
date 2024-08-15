@@ -65,59 +65,8 @@
     outline: 2px solid var(--gray);
 }
 
-.img-education {
-    width: 350px;
-    margin: -100px 0 0 50px;
-}
-
-.img-education img {
-    width: 100%;
-}
-
-
-@media (max-width: 1185px) {
-    .img-education {
-        width: 350px;
-        margin: -90px 0 0 0;
-    }
-} 
-
-@media (max-width: 1087px) {
-    .img-education {
-        margin: -90px 0 0 0;
-    }
-} 
-
-@media (max-width: 1145px) {
-    .img-education {
-        margin: -130px 0 0 -30px;
-    }
-} 
-
-@media (max-width: 950px) {
-    .img-education {
-    width: 300px;
-    margin: -100px 0 0 0;
-    }
-}
-
-@media (max-width: 918px) {
-    .img-education {
-    margin: -100px 0 0 -30px;
-    }
-}
-
-@media (max-width: 760px) {
-    .img-education {
-        width: 250px;
-        margin: -70px 0 0 -20px;
-    }
-}
 
 @media (max-width: 680px) {
-    .img-education {
-        display: none;
-    }
     #education .container .formacoes-content .formacao h3 {
         font-size: 1.8rem;
     }

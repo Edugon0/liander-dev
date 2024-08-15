@@ -27,6 +27,10 @@ header .container .logo span {
     padding: 3px 5px;
     color: var(--white-absolute);
     border-radius: 4px;
+    background: linear-gradient(90deg, #8A2BE2, #FF1493, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 header .container nav .links {

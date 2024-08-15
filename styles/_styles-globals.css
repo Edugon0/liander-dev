@@ -72,25 +72,6 @@ ul {
      margin: 0 auto;
 }
 
-::-webkit-scrollbar {
-    width: 15px;
-}
-  
-::-webkit-scrollbar-track {
-    background: var(--black)
-}
-  
-::-webkit-scrollbar-thumb {
-    background: var(--gray-dark); /* Cor do polegar */
-    border-radius: 5px; /* Bordas arredondadas */
-}
-  
-  /* Mudando a cor do polegar ao passar o mouse */
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--gray); /* Cor ao passar o mouse */
-  }
-
-
 @media (max-width: 1090px) {
     html {
         font-size: 50%;

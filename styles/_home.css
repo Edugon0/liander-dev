@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
-    padding: 13.5rem 25rem 1rem 25px;
+    padding: 13.5rem 31rem 1rem 25px;
 }
 
 .home .container .apresentation {
@@ -15,16 +15,18 @@
 
 .home .container h1 {
     font-size: 6rem;
-    line-height: 7rem;
+    line-height: 6rem;
     letter-spacing: 0.2rem;
     margin-left: -0.4375rem;
     color: var(--white-absolute);
-    padding-bottom: 1rem;
+    font-weight: 500;
 }
 
 .home .container h1 span {
-    font-size: 3rem;
-    color: var(--gray-dark);
+    background: linear-gradient(90deg, #8A2BE2, #FF1493, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 
@@ -74,9 +76,9 @@
 
 .buttons-contact a .redes{
     padding: 1.5rem 1.7rem;
-    border: 1px solid var(--gray);
+    border: 1px solid var(--white-absolute);
     border-radius: 50%;
-    color: var(--gray);
+    color: var(--white-absolute);
     transition: 0.5s all;
 }
 
