@@ -33,9 +33,11 @@
 .home .container .description {
     font-size: 2rem;
     padding-right: 30%;
+    padding-left: 16px;
     color: var(--gray);
     letter-spacing: 0.1rem;
-    margin-left: -0.3125rem;
+    border-left: 5px solid rgb(134, 127, 127);
+    border-radius: 1px;
 }
 
 .home .container .description strong {
@@ -71,7 +73,8 @@
 }
 
 .button-contact:hover {
-     box-shadow: 0px 0px 0px 1px var(--white-absolute);
+    padding: 1.4rem 3.9rem;
+    font-size: 2rem;
 }
 
 .buttons-contact a .redes{
@@ -127,8 +130,7 @@
     }
 
     .home .container .description {
-        padding: 0;
-        
+        padding-right: 0;
     }
 
     .home .container .apresentation {

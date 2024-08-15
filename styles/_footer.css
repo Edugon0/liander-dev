@@ -3,7 +3,8 @@ footer {
     display: flex;
     align-items: center;
     margin: 10rem 0 0 0;
-    border-top: 1px solid var(--gray);
+    border-top: 1px solid;
+    border-image: linear-gradient(90deg, #8A2BE2, #FF1493, #00FFFF) 1;
 }
 
 footer .container {
@@ -24,11 +25,14 @@ footer .container .redes-socias i {
 }
 
 footer .container .copy2024 {
-    color: var(--gray);
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
     padding-top: 2rem;
+    background: linear-gradient(90deg, #8A2BE2, #FF1493, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 @media (max-width: 790px) {

@@ -1,5 +1,5 @@
 const tools = ['html', 'css', 'javascript', 'git', 'react', 'tailwind']
-const imgsTools = ['/imgs/html.svg', '/imgs/css.svg', '/imgs/javascript.svg', '/imgs/git.svg', '/imgs/react.svg', '/imgs/tailwindcss.svg']
+const imgsTools = ['/assets/html.svg', '/assets/css.svg', '/assets/javascript.svg', '/assets/git.svg', '/assets/react.svg', '/assets/tailwindcss.svg']
 const toolsContent = document.querySelector('.toll-content')
 
 
