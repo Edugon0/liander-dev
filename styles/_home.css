@@ -95,6 +95,11 @@
     padding-right: 5rem;
 }
 
+.buttons-contact a:hover img,
+.buttons-contact a:active img{
+    opacity: 1;
+    right: 8px;
+}
 
 .buttons-contact a img {
     position: absolute;
@@ -102,11 +107,6 @@
     width: 3rem;
     transition: .5s ease;
     opacity: 0;
-}
-
-.buttons-contact a:hover img{
-    opacity: 1;
-    right: 8px;
 }
 
 
