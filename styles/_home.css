@@ -36,7 +36,7 @@
     padding-left: 16px;
     color: var(--gray);
     letter-spacing: 0.1rem;
-    border-left: 5px solid rgb(134, 127, 127);
+    border-left: 3px solid rgb(48, 45, 45);
     border-radius: 1px;
 }
 
@@ -54,7 +54,7 @@
     margin-left: -0.3438rem;
 }
 
-.button-contact {
+.buttons-contact .button-contact {
     font-size: 2rem;
     font-weight: 500;
     padding: 1.4rem 3.5rem;
@@ -66,7 +66,7 @@
     align-items: center;
 }
 
-.button-contact i {
+.buttons-contact .button-contact i {
     color: var(--black);
     transform: rotate(-45deg);
     margin-left: 10px;
@@ -77,24 +77,36 @@
     font-size: 2rem;
 }
 
-.buttons-contact a .redes{
-    padding: 1.5rem 1.7rem;
+.buttons-contact .links-redes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 1.1rem 1.7rem;
     border: 1px solid var(--white-absolute);
-    border-radius: 50%;
+    border-radius: 30px;
     color: var(--white-absolute);
     transition: 0.5s all;
+    position: relative;
+    transition: .5s ease;
+    overflow: hidden;
 }
 
-.buttons-contact .github:hover {
-    background-color: #010409;
-    color: var(--white-absolute);
-    border: 1px solid var(--white-absolute);
+.buttons-contact a:hover {
+    padding-right: 5rem;
 }
 
-.buttons-contact .linkedin:hover {
-    background-color: #0a66c2;
-    color: var(--white-absolute);
-    border: 1px solid var(--white-absolute);
+
+.buttons-contact a img {
+    position: absolute;
+    right: -35px;
+    width: 3rem;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.buttons-contact a:hover img{
+    opacity: 1;
+    right: 8px;
 }
 
 
