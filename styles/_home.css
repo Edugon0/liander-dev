@@ -57,7 +57,7 @@
 .buttons-contact .button-contact {
     font-size: 2rem;
     font-weight: 500;
-    padding: 1.4rem 3.5rem;
+    padding: 1.1rem 3.5rem;
     border-radius: 30px;
     color: var(--black);
     background-color: var(--white-absolute);
@@ -72,10 +72,7 @@
     margin-left: 10px;
 }
 
-.button-contact:hover {
-    padding: 1.4rem 3.9rem;
-    font-size: 2rem;
-}
+
 
 .buttons-contact .links-redes {
     display: flex;
@@ -95,8 +92,7 @@
     padding-right: 5rem;
 }
 
-.buttons-contact a:hover img,
-.buttons-contact a:active img{
+.buttons-contact a:hover img {
     opacity: 1;
     right: 8px;
 }
@@ -159,8 +155,34 @@
     }
 }
 
+@media (max-width: 450px) {
+    .buttons-contact .button-contact {
+        padding: 1.4rem 2rem;
+        font-size: 1.7rem;
+    }
+
+    .buttons-contact .links-redes {
+        font-size: 1.7rem;
+    }
+    
+
+    .button-contact:hover {
+        font-size: 1.7rem;
+    }
+
+    .buttons-contact a:hover {
+        padding-right: 1.7rem;
+    }
+    
+    .buttons-contact a:hover img {
+        opacity: 0;
+        right: 0    ;
+    }
+    
+}
+
 @media (max-width: 410px) {
     .home .container {
         padding-bottom: 0;
     }
-}8
+}
