@@ -23,7 +23,12 @@
     --gray-dark: #181818;
     --black: #000;
     --gray: #5f5b5b;
+    --style: #4f2c1d;
 }
+
+/**/
+
+
 
 html {
     scroll-behavior: smooth;
