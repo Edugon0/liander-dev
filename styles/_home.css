@@ -23,7 +23,10 @@
 }
 
 .home .container h1 span {
-    color: var(--style);
+    background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00, #ff0000, #00ff00);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 
@@ -76,9 +79,9 @@
     align-items: center;
     gap: 5px;
     padding: 1.1rem 1.7rem;
-    border: 1px solid var(--white-absolute);
+    border: 2px solid #18181A;
     border-radius: 30px;
-    color: var(--white-absolute);
+    color: #77777E;
     transition: 0.5s all;
     position: relative;
     transition: .5s ease;

@@ -16,7 +16,7 @@
 #formulario-contact form {
     padding: 20px;
     margin: 0 20px;
-    border: 1px solid var(--white-absolute);
+    border: 2px solid #18181A;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -44,15 +44,17 @@
     height: 4.125rem;
     padding: 4px 10px;
     border-radius: 5px;
-    font-style: italic;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     outline: none;
     border: none;
+    border: 2px solid #18181A;
+    background-color: transparent;
+    color: #77777E;
 }
 
 #formulario-contact form .info-pessoa .input input:focus {
-    border: 3px solid var(--gray);
+    border: 1px solid var(--white-absolute);
 }
 
 
@@ -68,33 +70,60 @@
     margin-top: 5px;
     padding: 13px 10px;
     border-radius: 5px;
-    font-style: italic;
     outline: none;
     border: none;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     resize: vertical;
+    border: 2px solid #18181A;
+    background-color: transparent;
+    color: #77777E;
 }
 
 #formulario-contact form .message textarea:focus {
-    border: 3px solid var(--gray);
+    border: 1px solid var(--white-absolute);
 }
 
-#formulario-contact form button {
-    width: 40%;
+#formulario-contact form .content-buttons-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+#formulario-contact form .content-buttons-contact button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
     height: 4.125rem;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
+    border-radius: 5px;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 400;
     background-color: transparent;
-    border: 2px solid var(--white-absolute);
-    color: var(--white-absolute);
+    border: 2px solid #18181A;
     transition: 0.3s all;
+    color: #FAFAFA;
 }
 
-#formulario-contact form button:hover {
-    background-color: var(--white-absolute);
-    color: var(--black);
+#formulario-contact form .content-buttons-contact .cancelar-mensagem:hover {
+    background-color: #18181A;
 }
+
+#formulario-contact form .content-buttons-contact .enviar-mensagem {
+    background-color: var(--white-absolute);
+    color: #222225;
+    border: 0px;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: 15px;
+    transform: rotate(-45deg);
+}
+
+#formulario-contact form .content-buttons-contact .enviar-mensagem:hover {
+    background-color: #d0cdcd;
+}
+

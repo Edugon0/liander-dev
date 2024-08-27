@@ -7,19 +7,24 @@
 
 #education .container .formacoes-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
 #education .container .formacoes-content .formacao {
-    height: 130px;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    align-items: center;
+    gap: 15px;
     position: relative;
     border-radius: 5px;
     padding: 15px;
-    background-color: var(--gray-dark);
+    border: 2px solid #18181A;
+}
+
+
+#education .container .formacoes-content .formacao .info-formações {
+    border-left: 2px solid #18181A;
+    padding-left: 15px;
 }
 
 
@@ -52,17 +57,11 @@
 }
 
 #education .container .formacoes-content .formacao img {
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     padding: 5px;
     background-color: var(--white-absolute);
-
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    border: 3px solid var(--black);
-    outline: 2px solid var(--gray);
 }
 
 
@@ -70,6 +69,7 @@
     #education .container .formacoes-content .formacao h3 {
         font-size: 1.8rem;
     }
+
 }
 
 @media (max-width: 480px)  {

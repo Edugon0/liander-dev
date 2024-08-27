@@ -27,7 +27,8 @@
     gap: 1.5rem;
     padding: 1rem 1rem;
     border-radius: 5px;
-    background-color: var(--gray-dark);
+    background-color: transparent;
+    border: 2px solid #18181A;
 }
 
 #tolls  .container .toll .toll-img {
@@ -36,9 +37,9 @@
 
 #tolls  .container .toll p {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
-    color: var(--white-absolute);
+    color: #77777E;;
     letter-spacing: 0.1rem;
 }
 
