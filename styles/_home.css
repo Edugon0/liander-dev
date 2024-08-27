@@ -3,18 +3,17 @@
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
-    padding: 13.5rem 31rem 1rem 25px;
+    padding: 13.5rem 35rem 1rem 25px;
 }
 
 .home .container .apresentation {
-    font-size: 2.5rem;
     line-height: 2rem;
     margin-left: -0.1563rem;
 }
 
 
 .home .container h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 6rem;
     letter-spacing: 0.2rem;
     margin-left: -0.4375rem;
@@ -31,12 +30,12 @@
 
 
 .home .container .description {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding-right: 30%;
     padding-left: 16px;
     color: var(--gray);
     letter-spacing: 0.1rem;
-    border-left: 3px solid rgb(48, 45, 45);
+    border-left: 2px solid #18181A;
     border-radius: 1px;
 }
 
@@ -50,14 +49,12 @@
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    font-size: 2rem;
-    margin-left: -0.3438rem;
+    font-size: 1.4rem;
 }
 
 .buttons-contact .button-contact {
-    font-size: 2rem;
-    font-weight: 500;
-    padding: 1.1rem 3.5rem;
+    font-weight: 600;
+    padding: 0.9rem 2rem;
     border-radius: 30px;
     color: var(--black);
     background-color: var(--white-absolute);
@@ -68,8 +65,16 @@
 
 .buttons-contact .button-contact i {
     color: var(--black);
-    transform: rotate(-45deg);
     margin-left: 10px;
+    transition: 0.3s all;
+}
+
+.buttons-contact .button-contact:hover {
+    padding-right: 18px;
+}
+
+.buttons-contact .button-contact:hover i {
+    padding-left: 5px;
 }
 
 
@@ -78,7 +83,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 1.1rem 1.7rem;
+    padding: 0.9rem 3rem;
     border: 2px solid #18181A;
     border-radius: 30px;
     color: #77777E;
@@ -88,22 +93,14 @@
     overflow: hidden;
 }
 
-.buttons-contact a:hover {
-    padding-right: 5rem;
+.buttons-contact .links-redes:hover {
+    background-color: #18181A;
 }
 
-.buttons-contact a:hover img {
-    opacity: 1;
-    right: 8px;
-}
-
-.buttons-contact a img {
-    position: absolute;
-    right: -35px;
-    width: 3rem;
-    transition: .5s ease;
-    opacity: 0;
-}
+@media (max-width: 1170px) {
+    .home .container {
+    padding-right: 35rem;
+}}
 
 
 @media (max-width: 1000px) {
@@ -115,14 +112,13 @@
 
 @media (max-width: 900px) {
     .home .container {
-        padding: 14.5rem 15px 2rem 25px;
+        padding: 14.5rem 15rem 2rem 25px;
     }
 }
 
 @media (max-width: 693px) {
     .home .container h1{
-        font-size: 6rem;
-        line-height: 7rem;
+        line-height: 6rem;
     }
 }
 

@@ -17,7 +17,7 @@
     gap: 15px;
     position: relative;
     border-radius: 5px;
-    padding: 15px;
+    padding: 1.5rem;
     border: 2px solid #18181A;
 }
 
@@ -29,30 +29,31 @@
 
 
 #education .container .formacoes-content .formacao h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     line-height: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
     color: var(--white-absolute);
 }
 
 #education .container .formacoes-content .formacao .faculdade {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
     line-height: 20px;
-    font-weight: 600;
+    font-weight: 400;
     color: green;
 }
 
 #education .container .formacoes-content .formacao span {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 500;
     color: var(--gray);
 }
 
 #education .container .formacoes-content .formacao p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #c5b3b3;
 }
 

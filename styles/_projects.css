@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    border: 1px solid var(--white-absolute);
+    border: 2px solid #18181A;
     padding: 1rem;
     border-radius: 5px;
     position: relative;
@@ -43,26 +43,23 @@
 }
 
 #projects .content-projects .project .tecnologias p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     padding: 1px 10px;
-    border-radius: 10px;
-    color: var(--white-absolute);
+    border-radius: 2px;
+    color: #77777E;
 }
 
 #projects .content-projects .project .tecnologias p:nth-child(1) {
-    background-color:#E65100;
-    border: 2px solid #b13e00;
+    border: 1px solid #E65100;
 }
 
 #projects .content-projects .project .tecnologias p:nth-child(2) {
-    background-color:#0277BD;
-    border: 1px solid#023552;
+    border: 1px solid #0277BD;
 }
 
 #projects .content-projects .project .tecnologias p:nth-child(3) {
-    background-color: #97800b;
-    border: 2px solid #9d8302;
+    border: 1px solid #97800b;
 }
 
 #projects .content-projects .project .links {
